@@ -137,3 +137,5 @@ BEGIN
     VALUES (NEW.id, 'Actualización de datos', NOW());
 END $$
 DELIMITER ;
+
+
