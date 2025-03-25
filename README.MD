@@ -1,10 +1,7 @@
 
-```sql
+
 # README - Consultas SQL
 
-Este archivo contiene varias consultas SQL para extraer datos relacionados con pedidos, clientes, productos, proveedores y empleados de una base de datos.
-
----
 
 ## 1. Obtener la lista de todos los pedidos con los nombres de clientes usando INNER JOIN
 
@@ -14,7 +11,7 @@ FROM Pedidos p
 INNER JOIN Clientes c ON p.cliente_id = c.id;
 ```
 
----
+
 
 ## 2. Listar los productos y proveedores que los suministran con INNER JOIN
 
